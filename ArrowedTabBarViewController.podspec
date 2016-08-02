@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ArrowedTabBarViewController"
-  s.version      = "0.1"
+  s.version      = "0.0.1"
   s.summary      = "ArrowedTabBarViewController ia an nice animated UITabBarController."
   s.platform = :ios
   s.ios.deployment_target = '8.0'
