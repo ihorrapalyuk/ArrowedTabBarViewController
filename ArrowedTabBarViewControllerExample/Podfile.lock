@@ -1,0 +1,14 @@
+PODS:
+  - ArrowedTabBarViewController (0.1)
+
+DEPENDENCIES:
+  - ArrowedTabBarViewController (from `/Users/ihorrapalyuk/Documents/Projects/ArrowedTabBarViewController`)
+
+EXTERNAL SOURCES:
+  ArrowedTabBarViewController:
+    :path: /Users/ihorrapalyuk/Documents/Projects/ArrowedTabBarViewController
+
+SPEC CHECKSUMS:
+  ArrowedTabBarViewController: 4b72225d2fde586a1f569671689b760f02ccb008
+
+COCOAPODS: 0.39.0

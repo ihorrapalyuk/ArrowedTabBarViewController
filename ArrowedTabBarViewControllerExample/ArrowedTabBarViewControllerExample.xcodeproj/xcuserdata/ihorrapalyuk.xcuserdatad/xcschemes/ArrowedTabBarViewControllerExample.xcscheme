@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D7431C7C1CB94C1500A5804B"
-               BuildableName = "ArrowedTabBarViewController.framework"
-               BlueprintName = "ArrowedTabBarViewController"
-               ReferencedContainer = "container:ArrowedTabBarViewController.xcodeproj">
+               BlueprintIdentifier = "D7431CBA1CB94E1F00A5804B"
+               BuildableName = "ArrowedTabBarViewControllerExample.app"
+               BlueprintName = "ArrowedTabBarViewControllerExample"
+               ReferencedContainer = "container:ArrowedTabBarViewControllerExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D7431CBA1CB94E1F00A5804B"
+            BuildableName = "ArrowedTabBarViewControllerExample.app"
+            BlueprintName = "ArrowedTabBarViewControllerExample"
+            ReferencedContainer = "container:ArrowedTabBarViewControllerExample.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D7431C7C1CB94C1500A5804B"
-            BuildableName = "ArrowedTabBarViewController.framework"
-            BlueprintName = "ArrowedTabBarViewController"
-            ReferencedContainer = "container:ArrowedTabBarViewController.xcodeproj">
+            BlueprintIdentifier = "D7431CBA1CB94E1F00A5804B"
+            BuildableName = "ArrowedTabBarViewControllerExample.app"
+            BlueprintName = "ArrowedTabBarViewControllerExample"
+            ReferencedContainer = "container:ArrowedTabBarViewControllerExample.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,15 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D7431C7C1CB94C1500A5804B"
-            BuildableName = "ArrowedTabBarViewController.framework"
-            BlueprintName = "ArrowedTabBarViewController"
-            ReferencedContainer = "container:ArrowedTabBarViewController.xcodeproj">
+            BlueprintIdentifier = "D7431CBA1CB94E1F00A5804B"
+            BuildableName = "ArrowedTabBarViewControllerExample.app"
+            BlueprintName = "ArrowedTabBarViewControllerExample"
+            ReferencedContainer = "container:ArrowedTabBarViewControllerExample.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
