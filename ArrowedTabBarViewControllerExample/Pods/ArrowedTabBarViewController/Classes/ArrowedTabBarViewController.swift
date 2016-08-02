@@ -12,43 +12,67 @@ import UIKit
 class ArrowedTabBarViewController: UITabBarController, UITabBarControllerDelegate {
     
     private var tabBarArrow: UIImageView?
-    @IBInspectable var arrowImage: UIImage = UIImage(assetIdentifier: .TabbarArrow)
-    @IBInspectable var shadowTabBarImage: UIImage = UIImage(assetIdentifier: .TabbarShadow)
+    private var tabBarShadow: UIImageView?
+    @IBInspectable var arrowImage: UIImage?
+    @IBInspectable var shadowTabBarImage: UIImage?
     @IBInspectable var shadowHaight: CGFloat = 5
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        self.addShadow()
+//        self.addTabBarArrow()
+//        self.delegate = self
+//    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        self.updateViews()
         self.addShadow()
         self.addTabBarArrow()
         self.delegate = self
     }
     
-    private func addShadow() {
-        guard let window = UIApplication.sharedApplication().keyWindow else {
+    private func updateViews() {
+        guard let window = UIApplication.sharedApplication().delegate?.window else {
             return
         }
-        let tabBarShadow = UIImageView(image: self.shadowTabBarImage)
-        tabBarShadow.contentMode = .ScaleToFill
+        
+        if self.tabBarShadow == nil {
+            self.tabBarShadow = UIImageView(image: self.shadowTabBarImage)
+            window?.addSubview(self.tabBarShadow!)
+            window?.bringSubviewToFront(tabBarShadow!)
+        }
+        
+        if self.tabBarArrow == nil {
+            self.tabBarArrow = UIImageView(image: self.arrowImage)
+            window?.addSubview(self.tabBarArrow!)
+            window?.bringSubviewToFront(tabBarArrow!)
+        }
+    }
+    
+    private func addShadow() {
+        guard let window = UIApplication.sharedApplication().delegate?.window else {
+            return
+        }
+        
+        tabBarShadow?.contentMode = .ScaleToFill
         // To get the vertical location we start at the bottom of the window, go up by height of the tab bar, go up again by the height of arrow and then come back down 2 pixels so the arrow is slightly on top of the tab bar.
-        let verticalLocation = window.frame.size.height - self.tabBar.frame.size.height - self.shadowHaight
+        let verticalLocation = (window?.frame.size.height ?? 0) - self.tabBar.frame.size.height - self.shadowHaight
         
-        tabBarShadow.frame = CGRectMake(0, verticalLocation, window.frame.width, self.shadowHaight)
+        tabBarShadow?.frame = CGRectMake(0, verticalLocation, (window?.frame.width ?? 0), self.shadowHaight)
         
-        window.addSubview(tabBarShadow)
     }
     
     private func addTabBarArrow() {
-        guard let window = UIApplication.sharedApplication().keyWindow else {
+        guard let window = UIApplication.sharedApplication().delegate?.window else {
             return
         }
-        self.tabBarArrow = UIImageView(image: self.arrowImage)
     
         // To get the vertical location we start at the bottom of the window, go up by height of the tab bar, go up again by the height of arrow.
-        let verticalLocation = window.frame.size.height - self.tabBar.frame.size.height - self.arrowImage.size.height
+        let verticalLocation = (window?.frame.size.height ?? 0) - self.tabBar.frame.size.height - (self.arrowImage?.size.height ?? 0)
     
-        tabBarArrow?.frame = CGRectMake(self.horizontalLocationFor(0), verticalLocation, self.arrowImage.size.width, self.arrowImage.size.height)
+        tabBarArrow?.frame = CGRectMake(self.horizontalLocationFor(0), verticalLocation, (self.arrowImage?.size.width ?? 0), (self.arrowImage?.size.height ?? 0))
     
-        window.addSubview(tabBarArrow!)
     }
     
     private func horizontalLocationFor(tabIndex: Int) -> CGFloat {

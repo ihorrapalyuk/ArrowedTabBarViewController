@@ -17,13 +17,6 @@ class ArrowedTabBarViewController: UITabBarController, UITabBarControllerDelegat
     @IBInspectable var shadowTabBarImage: UIImage?
     @IBInspectable var shadowHaight: CGFloat = 5
     
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        self.addShadow()
-//        self.addTabBarArrow()
-//        self.delegate = self
-//    }
-    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         self.updateViews()

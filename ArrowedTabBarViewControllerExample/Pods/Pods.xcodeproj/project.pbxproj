@@ -31,6 +31,19 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>113A113144010624391F17B191653D4B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ArrowedTabBarViewController-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>18340F12838DEE43507667CC74401EB1</key>
 		<dict>
 			<key>children</key>
@@ -160,35 +173,6 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>27E7CF738CE99B5CB73E2BFA8F7DB291</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>62AB8FF7E7DFE7940491138A129C2830</string>
-				<string>FB32EED7CF5ABB0CC2EBACA829E31923</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>28B34D12615A29F701E461D68DF7413C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DC099FD159228003A9FF611C7EB869DA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -278,7 +262,7 @@
 		<key>4D36A5A7B1784344EB7342C2E39C0616</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>4E75396ED000E0A0241F529D7F7BBF66</string>
+			<string>B187F5F64A1DD680CE0383CD49BF7F0B</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -333,23 +317,10 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>4E75396ED000E0A0241F529D7F7BBF66</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>ArrowedTabBarViewController.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>5006CED1712AC7CBBDA1B2458BBA8D2A</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>4E75396ED000E0A0241F529D7F7BBF66</string>
+			<string>B187F5F64A1DD680CE0383CD49BF7F0B</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -453,13 +424,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>62AB8FF7E7DFE7940491138A129C2830</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AAE775DC516D419D9E5E79EEF8DD3DC5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>64D971033F4A7521067F3814CACC4D96</key>
 		<dict>
 			<key>children</key>
@@ -510,19 +474,6 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>759699307276E0C348A7B8135F721FAA</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E5748E53B7D668955D6A32FC37C3197C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>764953FA1EDB89E7DE406660F72D6A6D</key>
 		<dict>
 			<key>children</key>
@@ -534,19 +485,6 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>76E69DE432E754B7E71DB67CABC77C1C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ArrowedTabBarViewController-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -568,8 +506,8 @@
 			<key>children</key>
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>759699307276E0C348A7B8135F721FAA</string>
 				<string>433CD3331B6C3787F473C941B61FC68F</string>
+				<string>9A7D79444E29273A8FB9FD4B82AD0D18</string>
 				<string>764953FA1EDB89E7DE406660F72D6A6D</string>
 				<string>CB9D9E75ACA1F3CC7DFBB4A668FBAE3E</string>
 			</array>
@@ -591,6 +529,26 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
+		</dict>
+		<key>809F1B092F8B4BED8EC7A51F18C37DC4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ArrowedTabBarViewController-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>86E7F54A55E012E9F4FD9A10077E01B4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C0B7D86ED075E2E60F67F008F94A528E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>875ECF676DB4E5E781B3285C09156AC7</key>
 		<dict>
@@ -627,12 +585,49 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>933004B5EB603A1954075B687047A3D0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>ArrowedTabBarViewController.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9A7D79444E29273A8FB9FD4B82AD0D18</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B940B38036D5D9BF03333A404DDA9A90</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>9B34332B39B116A4F7D6632E6804B7A6</key>
 		<dict>
 			<key>fileRef</key>
 			<string>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>9DAA025741DFE623E5D6C76F21A2F643</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ArrowedTabBarViewController-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A70CDAD61F90AC503C7D04CC22DA2923</key>
 		<dict>
@@ -707,23 +702,17 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>AAE775DC516D419D9E5E79EEF8DD3DC5</key>
+		<key>ABDE076347B6F255D9CB42FE70246FA5</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>9DAA025741DFE623E5D6C76F21A2F643</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ArrowedTabBarViewController-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>B14F15A654FB85A3C63DCCC37FC49255</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C5FABAABAD2627A2E5898F75E7C7DBF8</string>
+			<string>809F1B092F8B4BED8EC7A51F18C37DC4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -733,6 +722,49 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>B187F5F64A1DD680CE0383CD49BF7F0B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>ArrowedTabBarViewController.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B3E957ED442BF2D707818AE63C5DFAD2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>ABDE076347B6F255D9CB42FE70246FA5</string>
+				<string>86E7F54A55E012E9F4FD9A10077E01B4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B940B38036D5D9BF03333A404DDA9A90</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C0B7D86ED075E2E60F67F008F94A528E</string>
+				<string>D250847E0AB41B6EB1B62D15A4E3095C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>ArrowedTabBarViewController</string>
+			<key>path</key>
+			<string>ArrowedTabBarViewController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
@@ -751,16 +783,18 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>C03CD3503EDC1D121230F1A91A792159</key>
+		<key>C0B7D86ED075E2E60F67F008F94A528E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>ArrowedTabBarViewController.swift</string>
 			<key>path</key>
-			<string>Info.plist</string>
+			<string>Classes/ArrowedTabBarViewController.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -776,19 +810,6 @@
 			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>C5FABAABAD2627A2E5898F75E7C7DBF8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ArrowedTabBarViewController-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>CB9D9E75ACA1F3CC7DFBB4A668FBAE3E</key>
 		<dict>
@@ -809,7 +830,7 @@
 			<string>2663417F44F3EDE60E71173C45D5223E</string>
 			<key>buildPhases</key>
 			<array>
-				<string>27E7CF738CE99B5CB73E2BFA8F7DB291</string>
+				<string>B3E957ED442BF2D707818AE63C5DFAD2</string>
 				<string>05319DE273CF394068F009813248A162</string>
 				<string>324042038465F9D2F131E0CC9A7D4600</string>
 			</array>
@@ -838,6 +859,26 @@
 			<string>text.xcconfig</string>
 			<key>path</key>
 			<string>Pods-ArrowedTabBarViewControllerExample.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D250847E0AB41B6EB1B62D15A4E3095C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>933004B5EB603A1954075B687047A3D0</string>
+				<string>B187F5F64A1DD680CE0383CD49BF7F0B</string>
+				<string>9DAA025741DFE623E5D6C76F21A2F643</string>
+				<string>113A113144010624391F17B191653D4B</string>
+				<string>809F1B092F8B4BED8EC7A51F18C37DC4</string>
+				<string>DBFD4A957A3F0CB1386086409E515603</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/ArrowedTabBarViewController</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -907,65 +948,18 @@
 				</array>
 			</dict>
 		</dict>
-		<key>DC099FD159228003A9FF611C7EB869DA</key>
+		<key>DBFD4A957A3F0CB1386086409E515603</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>ArrowedTabBarViewController.swift</string>
+			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DF45492F6AAFB79F7286EB08C505C6DB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E1B5D0E379DFD130C660DA56E49285CE</string>
-				<string>4E75396ED000E0A0241F529D7F7BBF66</string>
-				<string>AAE775DC516D419D9E5E79EEF8DD3DC5</string>
-				<string>76E69DE432E754B7E71DB67CABC77C1C</string>
-				<string>C5FABAABAD2627A2E5898F75E7C7DBF8</string>
-				<string>C03CD3503EDC1D121230F1A91A792159</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>ArrowedTabBarViewControllerExample/Pods/Target Support Files/ArrowedTabBarViewController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E1B5D0E379DFD130C660DA56E49285CE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>ArrowedTabBarViewController.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E5748E53B7D668955D6A32FC37C3197C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>28B34D12615A29F701E461D68DF7413C</string>
-				<string>DF45492F6AAFB79F7286EB08C505C6DB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ArrowedTabBarViewController</string>
-			<key>path</key>
-			<string>/Users/ihorrapalyuk/Documents/Projects/ArrowedTabBarViewController</string>
-			<key>sourceTree</key>
-			<string>&lt;absolute&gt;</string>
 		</dict>
 		<key>E5AA61DE3DFC5B7AFB144020D4693CAA</key>
 		<dict>
@@ -1069,13 +1063,6 @@
 			<string>Info.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FB32EED7CF5ABB0CC2EBACA829E31923</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DC099FD159228003A9FF611C7EB869DA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>FB45FFD90572718D82AB9092B750F0CA</key>
 		<dict>
