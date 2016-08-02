@@ -5,7 +5,7 @@ use_frameworks!
 
 target 'ArrowedTabBarViewControllerExample' do
 
-pod 'ArrowedTabBarViewController',  :git => 'https://github.com/ihorrapalyuk/ArrowedTabBarViewController.git'
+pod 'ArrowedTabBarViewController'
 
 end
 

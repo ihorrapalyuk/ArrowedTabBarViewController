@@ -1,19 +1,10 @@
 PODS:
-  - ArrowedTabBarViewController (1.0.0)
+  - ArrowedTabBarViewController (1.0.1)
 
 DEPENDENCIES:
-  - ArrowedTabBarViewController (from `https://github.com/ihorrapalyuk/ArrowedTabBarViewController.git`)
-
-EXTERNAL SOURCES:
-  ArrowedTabBarViewController:
-    :git: https://github.com/ihorrapalyuk/ArrowedTabBarViewController.git
-
-CHECKOUT OPTIONS:
-  ArrowedTabBarViewController:
-    :commit: 60c47870447a480543fb8bf9110abf05d3c0348c
-    :git: https://github.com/ihorrapalyuk/ArrowedTabBarViewController.git
+  - ArrowedTabBarViewController
 
 SPEC CHECKSUMS:
-  ArrowedTabBarViewController: 046b927c041e132df472645f545c6e1a04ecf0f8
+  ArrowedTabBarViewController: 03376d7c6a56196902da85a78fd73b889e038cf9
 
 COCOAPODS: 0.39.0

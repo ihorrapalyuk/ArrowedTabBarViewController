@@ -1,6 +1,5 @@
 //
 //  ArrowedTabBarViewController.swift
-//  MovieMakerApp
 //
 //  Created by Ihor Rapalyuk on 4/9/16.
 //  Copyright © 2016 My. All rights reserved.
@@ -16,13 +15,6 @@ class ArrowedTabBarViewController: UITabBarController, UITabBarControllerDelegat
     @IBInspectable var arrowImage: UIImage?
     @IBInspectable var shadowTabBarImage: UIImage?
     @IBInspectable var shadowHaight: CGFloat = 5
-    
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        self.addShadow()
-//        self.addTabBarArrow()
-//        self.delegate = self
-//    }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()

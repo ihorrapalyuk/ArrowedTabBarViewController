@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5F256ED7D6721D1EF8B7221C'
+               BlueprintIdentifier = 'B77351AB425DD8836964F178'
                BlueprintName = 'Pods-ArrowedTabBarViewControllerExample'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_ArrowedTabBarViewControllerExample.framework'>
