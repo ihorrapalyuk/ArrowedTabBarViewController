@@ -1,6 +1,5 @@
 //
 //  ArrowedTabBarViewController.swift
-//  MovieMakerApp
 //
 //  Created by Ihor Rapalyuk on 4/9/16.
 //  Copyright © 2016 My. All rights reserved.

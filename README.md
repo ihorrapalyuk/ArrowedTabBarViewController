@@ -22,6 +22,6 @@ Cocoapods:
         <img src="https://raw.githubusercontent.com/letzgro/GooglePlacesPicker/master/GooglePlacesPickerExample.gif" alt="alt text" width= "200px" align="center">
 
 
-Example Project https://github.com/letzgro/GooglePlacesPicker/tree/master/ArrowedTabBarViewController
+Example Project https://github.com/ihorrapalyuk/ArrowedTabBarViewController/tree/master/ArrowedTabBarViewControllerExample
 
 
