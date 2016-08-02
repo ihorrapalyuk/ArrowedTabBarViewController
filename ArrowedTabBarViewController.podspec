@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ArrowedTabBarViewController"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "ArrowedTabBarViewController ia an nice animated UITabBarController."
   s.platform = :ios
   s.ios.deployment_target = '8.0'
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.author = { "VoidStudio" => "voidstudiomain@gmail.com" }
 
-  s.source = { :git => "https://github.com/ihorrapalyuk/ArrowedTabBarViewController.git", :tag => "0.0.1"}
+  s.source = { :git => "https://github.com/ihorrapalyuk/ArrowedTabBarViewController.git", :tag => "0.0.2"}
 
   s.source_files  = "ArrowedTabBarViewController/**/*.{swift,storyboard,xib}"
 
