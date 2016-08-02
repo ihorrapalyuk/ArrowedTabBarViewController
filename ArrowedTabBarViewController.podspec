@@ -15,9 +15,7 @@ Pod::Spec.new do |s|
 
   s.source = { :git => "https://github.com/ihorrapalyuk/ArrowedTabBarViewController.git", :tag => "0.0.2"}
 
-  s.source_files  = "ArrowedTabBarViewController/**/*.{swift,storyboard,xib}"
-
-  s.resources = "Resources/*.xcassets"
+  s.source_files  = "Classes/**/*.{swift,storyboard,xib}"
 
   s.framework  = "UIKit"
 

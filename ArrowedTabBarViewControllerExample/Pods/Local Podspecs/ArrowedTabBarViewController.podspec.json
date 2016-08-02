@@ -1,6 +1,6 @@
 {
   "name": "ArrowedTabBarViewController",
-  "version": "0.1",
+  "version": "0.0.2",
   "summary": "ArrowedTabBarViewController ia an nice animated UITabBarController.",
   "platforms": {
     "ios": "8.0"
@@ -15,10 +15,9 @@
     "VoidStudio": "voidstudiomain@gmail.com"
   },
   "source": {
-    "git": "https://github.com/voidstudio/ArrowedTabBarViewController.git",
-    "tag": "0.1"
+    "git": "https://github.com/ihorrapalyuk/ArrowedTabBarViewController.git",
+    "tag": "0.0.2"
   },
-  "source_files": "ArrowedTabBarViewController/**/*.{swift,storyboard,xib}",
-  "resources": "Resources/*.xcassets",
+  "source_files": "Classes/**/*.{swift,storyboard,xib}",
   "frameworks": "UIKit"
 }

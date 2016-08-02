@@ -8,18 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D7431C811CB94C1500A5804B /* ArrowedTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D7431C801CB94C1500A5804B /* ArrowedTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7431C921CB94DAC00A5804B /* ArrowedTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7431C901CB94DAC00A5804B /* ArrowedTabBarViewController.swift */; };
-		D7431C931CB94DAC00A5804B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7431C911CB94DAC00A5804B /* UIImageExtension.swift */; };
-		D7B88F051D509C0200ADB46E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B88F041D509C0200ADB46E /* Images.xcassets */; };
+		D7B88F101D50A6A600ADB46E /* ArrowedTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B88F0F1D50A6A600ADB46E /* ArrowedTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D7431C7D1CB94C1500A5804B /* ArrowedTabBarViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArrowedTabBarViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7431C801CB94C1500A5804B /* ArrowedTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrowedTabBarViewController.h; sourceTree = "<group>"; };
 		D7431C821CB94C1600A5804B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7431C901CB94DAC00A5804B /* ArrowedTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrowedTabBarViewController.swift; path = Classes/ArrowedTabBarViewController.swift; sourceTree = "<group>"; };
-		D7431C911CB94DAC00A5804B /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = Classes/UIImageExtension.swift; sourceTree = "<group>"; };
-		D7B88F041D509C0200ADB46E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Resources/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		D7B88F0F1D50A6A600ADB46E /* ArrowedTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrowedTabBarViewController.swift; path = Classes/ArrowedTabBarViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				D7B88F071D509C1900ADB46E /* SupportingFiles */,
-				D7B88F061D509C0A00ADB46E /* Resources */,
-				D7431C8D1CB94CD700A5804B /* Extensions */,
 				D7431C8A1CB94C9100A5804B /* Controllers */,
 			);
 			path = ArrowedTabBarViewController;
@@ -63,25 +57,9 @@
 		D7431C8A1CB94C9100A5804B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D7431C901CB94DAC00A5804B /* ArrowedTabBarViewController.swift */,
+				D7B88F0F1D50A6A600ADB46E /* ArrowedTabBarViewController.swift */,
 			);
 			name = Controllers;
-			sourceTree = "<group>";
-		};
-		D7431C8D1CB94CD700A5804B /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				D7431C911CB94DAC00A5804B /* UIImageExtension.swift */,
-			);
-			name = Extensions;
-			sourceTree = "<group>";
-		};
-		D7B88F061D509C0A00ADB46E /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D7B88F041D509C0200ADB46E /* Images.xcassets */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		D7B88F071D509C1900ADB46E /* SupportingFiles */ = {
@@ -161,7 +139,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7B88F051D509C0200ADB46E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7431C921CB94DAC00A5804B /* ArrowedTabBarViewController.swift in Sources */,
-				D7431C931CB94DAC00A5804B /* UIImageExtension.swift in Sources */,
+				D7B88F101D50A6A600ADB46E /* ArrowedTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
